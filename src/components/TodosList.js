@@ -1,10 +1,13 @@
 import TodoItem from './TodoItem';
-
-const TodosList = ({ todosProps }) => (
-  <ul>
-    {todosProps.map((todo) => (
-      <TodoItem key={todo.id} itemProp={todo} />
-    ))}
-  </ul>
-);
+import { useTodosContext } from '@/context/TodosContext';
+const TodosList = () => {
+  const { todos } = useTodosContext();
+  return (
+    <ul>
+      {todos.map((todo) => (
+        <TodoItem key={todo.id} itemProp={todo} />
+      ))}
+    </ul>
+  );
+};
 export default TodosList;
