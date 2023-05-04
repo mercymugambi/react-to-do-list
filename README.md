@@ -1,11 +1,32 @@
+# to-do-list-REACT
+This simple web page is built using webpack and served by a webpack dev server. 
 <a name="readme-top"></a>
 
-<div align="center">
+<!--
 
-  <h1>Gladwin Tshepo Ramantso<h1>
-  <br/>
-  
-  <h3><b> React js To Do App</b></h3>
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
+  <h3><b>Hello</b></h3>
 
 </div>
 
@@ -30,50 +51,34 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To-Do List <a name="about-project"></a>
+# 📖 To-do list<a name="To-do list"></a>
 
-This is a SPA(Single Page Application) To-do online list.
+> "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. This simple web page is built using webpack, es6 and served by a webpack dev server.
 
-**To-do List** In this project, I built a Single Page App (SPA) that allows users the add and remove the list of all responsibilities or activities intended to accomplish.
+**To-do list** is a project where i test my javascript and webpack programming skills.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- React
-- CSS
-- JavaScript(ES6)
-- JSX
+>VScode
+>Javascript
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Version Control</summary>
-  <ul>
-    <li><a href="https://github.com/">Git Hub</a></li>
-  </ul>
-</details>
+> This is a web project.
 
 <details>
-  <summary>Visual Studio Code</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+    <li><a href="https://javascript.info/">index.js</a>Javascript</li>
   </ul>
-</details>
 
-<details>
-  <summary>Node js</summary>
   <ul>
-    <li><a href="https://nodejs.org/en">Node js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>React</summary>
-  <ul>
-    <li><a href="https://create-react-app.dev/">React js</a></li>
+    <li><a href="https://css.org/">style.html</a>CSS</li>
   </ul>
 </details>
 
@@ -81,18 +86,18 @@ This is a SPA(Single Page Application) To-do online list.
 
 ### Key Features <a name="key-features"></a>
 
-- **List of activities**
-- **React**
+> The key features are:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **Visualize the template**
+- **implemt more features for days activity**
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
-- [Live Demo](https://tgrmathmagicians.netlify.app/) -->
+<!-- - [Live Demo Link](https://mercymugambi.github.io/) -->
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -104,34 +109,13 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Node.js in your computer
-- IDE(e.g.: Vscode,...)
-- Terminal
-
 ### Setup
 
-Clone this repository to your desired folder by running the following commands in your terminal:
+Clone this repository to your desired folder:
 
 ```sh
-  cd your-prefered-folder-name
-
-  git clone https://github.com/tsheporamantso/react-to-do.git
-```
-
-### Install
-
-- Install this project with:
-
-```sh
-  cd react-to-do
-
-  npm install or npm i
-```
-
-- Run an optimized build for prodction:
-
-```
-  npm run build
+  cd my-folder
+  git clone this repo link
 ```
 
 ### Usage
@@ -139,27 +123,29 @@ Clone this repository to your desired folder by running the following commands i
 To run the project, execute the following command:
 
 ```sh
-  npm start
-
+  vscode server
 ```
 
 ### Run tests
 
 To run tests, run the following command:
 
+Example command:
+
 ```sh
-  npm test
+configure linter.yml file
+open on your browser
 ```
 
-<!-- ### Deployment
+### Deployment
 
 You can deploy this project using:
 
-GitHub Pages
+Example:
 
 ```sh
-https://tsheporamantso.github.io/math-magicians/public
-``` -->
+github pages
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,11 +153,11 @@ https://tsheporamantso.github.io/math-magicians/public
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Gladwin Tshepo Ramantso**
+👤 **Mercy Mugambi**
 
-- GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
-- Twitter: [@ramgt001](https://twitter.com/ramgt001)
-- LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
+- GitHub: [@mercymugambi](https://github.com/mercymugambi)
+- Twitter: [@mercymugambi](https://twitter.com/MercyMugambi15)
+- LinkedIn: [@mercymugambi](https://www.linkedin.com/in/mercymugambi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,9 +165,10 @@ https://tsheporamantso.github.io/math-magicians/public
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Components**
-- [ ] **Events**
-- [ ] **Mobile version**
+> Below are future features to be added.
+
+- **more_days_features**
+- **Add alerts and time schedule**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,15 +178,13 @@ https://tsheporamantso.github.io/math-magicians/public
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/tsheporamantso/react-to-do/issues).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please follow us on github & twitter and also connect on Linkedin.
+If you like this project, follow and contact me back.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,7 +192,21 @@ If you like this project please follow us on github & twitter and also connect o
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for this exercise.
+I would like to thank microverse community and my coding partner for their dedicated time to encourage me achieve the best. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Question_1: Have you used linters to check for bugs?**
+
+  - yes
+
+- **Question_2: Do the project use database?**
+
+  - Answer_2: not at the moment. To be used as we scale the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
